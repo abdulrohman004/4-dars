@@ -1,0 +1,39 @@
+.site-hero {
+    padding: 0 40px;
+  }
+  
+  .site-hero__wrapper{
+    padding-top: 117px;
+    padding-bottom: 116px;
+    padding-left: 86px;
+    background-image: url(../img/coffee.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(216, 216, 216);
+    border-radius: 10px;
+  
+  }
+  .site-hero__content {
+    max-width: 493px;
+  }
+  
+  .site-hero__title {
+    margin-top: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces';
+    font-size: 72px;
+    line-height: 72px;
+    font-weight: 900;
+    color: #FEFCF7;
+  }
+  .site-hero__desc {
+    width: 444px;
+    margin-top: 0;
+    margin-bottom: 56px;
+    color: #fefcf7;
+    opacity: 0.8;
+  }
+  .site-hero__desc:hover{
+    color:  #FDD6BA;
+  }

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/form.css">
+</head>
+<body>
+    <div class="container">
+        <header class="site-header">
+            <a href="#" class="site-header__logo-link">
+                <img src="img/site-logo.svg" alt="" class="site-logo" width="236" height="26">
+            </a>
+            <nav class="sitenav">
+                <ul class="sitenav__list">
+                    <li class="sitenav__item">
+                        <a href="./index.html" class="sitenav__link">
+                            home
+                        </a>
+                    </li>
+                    <li class="sitenav__item">
+                        <a href="about-us.html" class="sitenav__link">
+                            about us
+                        </a>
+                    </li>
+                    <li class="sitenav__item">
+                        <a href="./subscribe.html" class="sitenav__link">
+                            Create your plan
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="site-main">
+            <section class="site-hero-section">
+                <div class="site-hero-section__content">
+                    <h2 class="site-hero-section__heading">
+                        Create a plan
+                    </h2>
+                    <p class="site-hero-section__desc">
+                        Build a subscription plan that best fits your needs. We offer an assortment of the best artisan coffees from around the globe delivered fresh to your door.
+                    </p>
+                </div>
+            </section>
+            <section class="how-it-work">
+                <h2 class="how-it-work__heading">How it works</h2>
+                <ol class="how-it-work__list">
+                  <li class="how-it-work__item">
+                    <h3 class="how-it-work__item-heading">Pick your coffee</h3>
+                    <p class="how-it-work__item-desc">
+                      Select from our evolving range of artisan coffees. Our beans are
+                      ethically sourced and we pay fair prices for them. There are new
+                      coffees in all profiles every month for you to try out.
+                    </p>
+                  </li>
+                  <li class="how-it-work__item">
+                    <h3 class="how-it-work__item-heading">Choose the frequency</h3>
+                    <p class="how-it-work__item-desc">
+                      Customize your order frequency, quantity, even your roast style
+                      and grind type. Pause, skip or cancel your subscription with no
+                      commitment through our online portal.
+                    </p>
+                  </li>
+      
+                  <li class="how-it-work__item">
+                    <h3 class="how-it-work__item-heading">Receive and enjoy!</h3>
+                    <p class="how-it-work__item-desc">
+                      We ship your package within 48 hours, freshly roasted. Sit back
+                      and enjoy award-winning world-class coffees curated to provide a
+                      distinct tasting experience.
+                    </p>
+                  </li>
+                </ol>
+                <a class="site-primary-link primary-link" href="#">
+                  Create your plan
+                </a>
+            </section>
+                <form class="main-form" action="https://echo.htmlacademy.ru/" method="post" >
+                <ol class="coffee-list">
+                    <li class="coffee-list__item">
+                        <button class="coffee-list__item-button">
+                            Preferences
+                        </button>
+                    </li>
+                    <li class="coffee-list__item">
+                        <button class="coffee-list__item-button">
+                            Bean Type
+                        </button>
+                    </li>
+                    <li class="coffee-list__item">
+                        <button class="coffee-list__item-button">
+                            Quantity
+                        </button>
+                    </li>
+                    <li class="coffee-list__item">
+                        <button class="coffee-list__item-button">
+                            Grind Option
+                        </button>
+                    </li>
+                    <li class="coffee-list__item">
+                        <button class="coffee-list__item-button">
+                            Deliveries
+                        </button>
+                    </li>
+                </ol>
+                <article class="main-form__section">
+                    <section class="main-from__section">
+                        <div class="main-form__section-wrapper">
+                            <p class="main-form__section-heading">
+                                How do you drink your coffee?
+                            </p>
+                            <button class="main-form-section-btn" >></button>
+                        </div>
+                        <ul class="main-form__section-list">
+                            <li class="main-form__section-list__item coffee-item">
+                                <label>
+                                    <input class="main-form__section-input" type="radio" name="drink coffee">
+                                    <span>
+                                <span class="coffee-item__heading">Capsule</span>
+                                <span class="coffee-item__desc">Compatible with Nespresso systems and similar brewers</span>
+                            </span>
+                            </label>
+                            </li>
+                            <li class="main-form__section-list__item coffee-item">
+                                <label>
+                                    <input class="main-form__section-input" type="radio" name="drink coffee">
+                                    <span>
+                                <span class="coffee-item__heading">Filter</span>
+                                <span class="coffee-item__desc">For pour over or drip methods like Aeropress, Chemex, and V60</span>
+                            </span>
+                            </label>
+                            </li>
+                            <li class="main-form__section-list__item coffee-item">
+                                <label>
+                                    <input class="main-form__section-input" type="radio" name="drink coffee">
+                                    <span>
+                                <span class="coffee-item__heading">Espresso</span>
+                                <span class="coffee-item__desc">Dense and finely ground beans for an intense, flavorful experience</span>
+                            </span>
+                            </label>
+                            </li>
+                        </ul>
+                    <div class="coffecreate__form-desc-wrapper">
+                        <p class="coffeecreate__form-desc-heading">
+                            Order Summary
+                        </p>
+                        <p class="coffeecreate__form-desc">
+                            “I drink my coffee as <span class="coffeecreate__form-desc-word">Filter</span>, with a <span class="coffeecreate__form-desc-word">Decaf</span> type of bean. <span class="coffeecreate__form-desc-word">250g</span> ground ala <span class="coffeecreate__form-desc-word">Cafetiére</span>, sent to me <span class="coffeecreate__form-desc-word">Every week</span>.”
+                        </p>
+                    </div>
+                    <button type="submit" class="primary-link coffeecreate__form-button">Create my plan!</button>
+                </section>
+                </article>
+                </form>
+        </main>
+        <footer class="site-footer">
+            <a href="#" class="logo-link">
+                <img src="./img/site-logo-white.svg" alt="" class="logo-img" width="236" height="26">
+            </a>
+            <nav class="sitenav sitenav--fot">
+                <ul class="sitenav__list">
+                    <li class="sitenav__item">
+                        <a href="./index.html" class="sitenav__link">
+                            home
+                        </a>
+                    </li>
+                    <li class="sitenav__item">
+                        <a href="about-us.html" class="sitenav__link">
+                            about us
+                        </a>
+                    </li>
+                    <li class="sitenav__item">
+                        <a href="./subscribe.html" class="sitenav__link">
+                            Create your plan
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="site-footer__sm-list">
+                <li class="site-footer__sm-item">
+                    <a href="https://www.facebook.com/" target="_blank" class="site-footer__sm-link">
+                        <img src="img/facebook.svg" alt="" class="site-footer__sm-logo" width="24" height="24">
+                    </a>
+                </li>
+                <li class="site-footer__sm-item">
+                    <a href="https://twitter.com/" target="_blank" class="site-footer__sm-link">
+                        <img src="img/twitter.svg" alt="" class="site-footer__sm-logo" width="24" height="20">
+                    </a>
+                </li>
+                <li class="site-footer__sm-item">
+                    <a href="https://www.instagram.com/" target="_blank" class="site-footer__sm-link">
+                        <img src="img/instagram.svg" alt="" class="site-footer__sm-logo" width="24" height="24">
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+</html>
+</body>
+</html>
